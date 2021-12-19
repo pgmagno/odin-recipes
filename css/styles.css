@@ -1,0 +1,103 @@
+:root {
+    --electric-blue: #90f1efff;
+    --mimi-pink: #ffd6e0ff;
+    --green-yellow: #ffef9fff;
+    --mint-green: #c1fba4ff;
+    --light-green: #7bf1a8ff;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #bbfff0;
+    opacity: 1;
+    background-size: 17px 17px;
+    background-image: repeating-linear-gradient(45deg, var(--mint-green) 0, var(--light-green) 1.7000000000000002px, #bbfff0 0, #bbfff0 50%);
+}
+
+.title {
+    font-family: "Brush Script MT", cursive;
+    font-size: 45px;
+    text-align: center;
+    width: auto;
+    background-color: #6bffdf;
+    padding: 15px;
+    margin-top: 0;
+    color: #333333;
+    border-bottom: solid 2px #333333;
+}
+
+.main-content {
+    height: 80vh;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.recipe {
+    font-size: 20px;
+}
+
+img {
+    border-radius: 10px;
+    border: 5px 5px 5px 5px;
+    border-style: solid;
+    border-color: #6BFFDF;
+    width: 700px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: #bbfff0;
+    color: #333333;
+    width: auto;
+    border-radius: 5px 0 0 0;
+    padding: 10px 10px 5px;
+    border-style: solid;
+    border-color: #6BFFDF;
+    border-width: 2px 0 0 0;
+}
+
+footer a {
+    font-weight: bold;
+}
+
+li {
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+    width: 250px;
+    color: #333333;
+    background-color: #6BFFDF;
+    position: relative;
+    text-align: center;
+    list-style-type: none;
+    border: solid 2px #333333;
+    border-radius: 5px;
+}
+
+p {
+    padding: 0;
+    margin: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
